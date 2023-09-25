@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "KomikNime",
+    "slug": "komiknime",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "scheme": "myapp",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gufanto.pickerImage"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "api_url": "${API_URL}",
+      "eas": {
+        "projectId": "0958bae8-9fa7-4b1d-9134-710b0b60ce4d"
+      }
+    },
+    "owner": "gufanto"
+  }
+}
